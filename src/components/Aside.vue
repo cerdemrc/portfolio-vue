@@ -1,7 +1,7 @@
 <template>
   <div>
     <div :class="theme" class="aside">
-      <h5 class="aside-name">Elif Ceren Demirci</h5>
+      <h5 class="aside-name">&lt; Ceren Demirci &#47;&gt;</h5>
       <img class="aside-image" src="../assets/picture.jpeg" />
       <p class="aside-bio">Jr. Frontend Developer</p>
       <div class="aside-links">
@@ -147,6 +147,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/styles/_variables.scss";
 .aside {
   position: fixed;
   height: 100%;
@@ -158,6 +159,7 @@ export default {
   &-name {
     color: #fff;
     font-size: 25px;
+    font-weight: 700;
     letter-spacing: 1px;
     margin-top: 20px;
   }
@@ -204,9 +206,10 @@ export default {
         }
         & a {
           color: #fff;
-          font-weight: bold;
           letter-spacing: 1px;
-          font-size: 17px;
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 700;
           text-decoration: none;
           &:hover {
             color: rgba(0, 0, 0, 0.5);
@@ -227,7 +230,9 @@ export default {
       margin-top: 2px;
     }
     & h5 {
-      font-size: 16px;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 700;
       color: #fff;
     }
   }
@@ -236,10 +241,10 @@ export default {
   }
 }
 .light-theme {
-  background: #54b689;
+  background: $primary;
 }
 .dark-theme {
-  background: #1e2a3a;
+  background: $secondary;
 }
 
 @media screen and(max-width:768px) {
