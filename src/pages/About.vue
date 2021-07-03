@@ -2,7 +2,7 @@
   <div class="about-page">
     <div class="about">
       <div class="about-content">
-        <h2>&lt; Elif Ceren Demirci &#47;&gt;</h2>
+        <h2>Ceren Demirci</h2>
         <h6>Jr. Frontend Developer</h6>
         <p>
           I graduated from computer engineering in June 2020. I'm on my way to
@@ -99,16 +99,22 @@ export default {
     &-content {
       margin-top: 30px;
       & h2 {
-        font-size: 40px;
+        font-size: 39px;
+        line-height: 47px;
+        font-weight: 700;
         font-weight: bold;
       }
       & h6 {
-        font-size: 18px;
+        font-size: 24px;
+        line-height: 36px;
         font-weight: 300;
       }
       & p {
         margin-top: 20px;
-        color: #4f4f4f;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 95%;
       }
     }
     &-image {
@@ -128,9 +134,10 @@ export default {
         margin-right: 12px;
         background: #54b689;
       }
-      & h5 {
+      & h3 {
         font-size: 28px;
-        font-weight: bold;
+        line-height: 38px;
+        font-weight: 700;
       }
     }
     &-content {
