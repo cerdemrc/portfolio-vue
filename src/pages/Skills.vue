@@ -172,6 +172,7 @@ export default {
 
 @media screen and(max-width:768px) {
   .skills {
+    margin-bottom: 200px;
     &-tools-content {
       flex-direction: column;
       & h6 {

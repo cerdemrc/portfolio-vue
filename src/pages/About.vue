@@ -197,6 +197,7 @@ export default {
 @media screen and(max-width:1500px) {
   .about-page {
     padding: 0;
+    margin-bottom: 250px;
     & .about {
       margin-top: 0;
     }
