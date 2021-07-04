@@ -2,7 +2,7 @@
   <div id="app">
     <b-container fluid>
       <b-row>
-        <b-col xs="12" lg="3" xl="3">
+        <b-col xs="12" lg="3" xl="3" class="p-0">
           <Aside :mode="mode" @toggle="toggle" />
         </b-col>
         <b-col xs="12" lg="9" xl="9" class="app-page" :class="mode">
