@@ -209,6 +209,11 @@ export default {
     }
   }
 }
+@media screen and(max-width:1500px) {
+  .about-page {
+    margin-left: 50px;
+  }
+}
 
 @media screen and(max-width:768px) {
   .about-page {

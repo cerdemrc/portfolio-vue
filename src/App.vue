@@ -2,10 +2,10 @@
   <div id="app">
     <b-container fluid>
       <b-row>
-        <b-col xs="12" lg="3" class="p-0">
+        <b-col xs="12" lg="3" xl="3">
           <Aside :mode="mode" @toggle="toggle" />
         </b-col>
-        <b-col xs="12" lg="9" class="app-page" :class="mode">
+        <b-col xs="12" lg="9" xl="9" class="app-page" :class="mode">
           <router-view :mode="mode" />
         </b-col>
       </b-row>

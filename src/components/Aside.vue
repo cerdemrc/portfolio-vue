@@ -247,8 +247,12 @@ export default {
 .light {
   background: $primary;
 }
-
-@media screen and(max-width:768px) {
+@media screen and(max-width:1500px) {
+  .aside {
+    width: 300px;
+  }
+}
+@media screen and(max-width:991px) {
   .aside {
     display: none;
     &-mobile {
