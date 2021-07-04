@@ -22,35 +22,22 @@
         <h3>Technologies I Use</h3>
       </div>
       <div class="technology-content">
-        <b-container>
-          <b-row>
-            <img class="technology-content-icon" src="../assets/svg/html.svg" />
-            <img class="technology-content-icon" src="../assets/svg/css.svg" />
-            <img class="technology-content-icon" src="../assets/svg/sass.svg" />
-            <img class="technology-content-icon" src="../assets/svg/js.svg" />
-            <img class="technology-content-icon" src="../assets/svg/vue.svg" />
-            <img
-              class="technology-content-icon"
-              src="../assets/svg/vscode.svg"
-            />
-            <img
-              class="technology-content-icon"
-              src="../assets/svg/figma.svg"
-            />
-            <img
-              class="technology-content-icon"
-              src="../assets/svg/bootstrap.svg"
-            />
-            <img
-              class="technology-content-icon mb-2"
-              src="../assets/svg/gulp.svg"
-            />
-            <img
-              class="technology-content-icon mt-2"
-              src="../assets/svg/npm.svg"
-            />
-          </b-row>
-        </b-container>
+        <img class="technology-content-icon" src="../assets/svg/html.svg" />
+        <img class="technology-content-icon" src="../assets/svg/css.svg" />
+        <img class="technology-content-icon" src="../assets/svg/sass.svg" />
+        <img class="technology-content-icon" src="../assets/svg/js.svg" />
+        <img class="technology-content-icon" src="../assets/svg/vue.svg" />
+        <img class="technology-content-icon" src="../assets/svg/vscode.svg" />
+        <img class="technology-content-icon" src="../assets/svg/figma.svg" />
+        <img
+          class="technology-content-icon"
+          src="../assets/svg/bootstrap.svg"
+        />
+        <img
+          class="technology-content-icon mb-2"
+          src="../assets/svg/gulp.svg"
+        />
+        <img class="technology-content-icon mt-2" src="../assets/svg/npm.svg" />
       </div>
     </div>
   </div>
