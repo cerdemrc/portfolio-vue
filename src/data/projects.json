@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Find Make-Up",
+        "image": "makeup.png",
+        "code": "https://github.com/cerdemrc/makeup",
+        "project": "https://cerdemrc.github.io/makeup/"
+    },
+    {
+        "name": "Random Things",
+        "image": "random-things.png",
+        "code": "https://github.com/cerdemrc/random-things-react",
+        "project" : "https://random-things-react.vercel.app/"
+    },
+    {
+        "name": "Pixabay API",
+        "image": "pixabay.png",
+        "code": "https://github.com/cerdemrc/pixabay-api",
+        "project" : "https://cerdemrc.github.io/pixabay-api/"
+    },
+    {
+        "name": "Ideal Weight Calculator",
+        "image": "ideal-weight.png",
+        "code": "https://github.com/cerdemrc/ideal-weight-calculator",
+        "project" : "https://cerdemrc.github.io/ideal-weight-calculator/"
+    },
+    {
+        "name": "Quiz App",
+        "image": "quiz-app.png",
+        "code": "https://github.com/cerdemrc/quiz-app",
+        "project" : "https://cerdemrc.github.io/quiz-app/"
+    },
+    {
+        "name": "Currency Converter",
+        "image": "currency.png",
+        "code": "https://github.com/cerdemrc/currency-converter",
+        "project" : "https://cerdemrc.github.io/currency-converter/"
+    },    {
+        "name": "Rock Paper Scissors",
+        "image": "rps.png",
+        "code": "https://github.com/cerdemrc/vue-rock-paper-scissors",
+        "project" : "https://vuejs-rock-paper-scissors.netlify.app/"
+    },
+    {
+        "name": "Movie App",
+        "image": "movie.png",
+        "code": "https://github.com/cerdemrc/movie-app",
+        "project" : "https://application-movie.netlify.app/"
+    },
+    {
+        "name": "Instagram Clone",
+        "image": "instagram.png",
+        "code": "https://github.com/cerdemrc/instagram-clone",
+        "project" : "https://instagram-clone-git-master-cerdemrc.vercel.app/"
+    }
+]
