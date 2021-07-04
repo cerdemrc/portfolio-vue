@@ -132,6 +132,11 @@ export default {
       isShowMenu: false,
     };
   },
+  watch: {
+    $route() {
+      this.isShowMenu = false;
+    },
+  },
   methods: {
     showMenu() {
       this.isShowMenu = !this.isShowMenu;
