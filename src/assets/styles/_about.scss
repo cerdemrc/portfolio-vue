@@ -1,0 +1,211 @@
+//general css
+.about-page {
+    padding: 0 20px;
+    height: 100vh;
+    & .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+      padding: 15px;
+      background: rgba(202, 202, 202, 0.199);
+      &-content {
+        margin-top: 30px;
+        & h2 {
+          font-size: 39px;
+          line-height: 47px;
+          font-weight: 700;
+          font-weight: bold;
+        }
+        & h6 {
+          font-size: 24px;
+          line-height: 36px;
+          font-weight: 300;
+        }
+        & p {
+          margin-top: 20px;
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 400;
+          width: 95%;
+        }
+      }
+      &-image {
+        width: 400px;
+        height: auto;
+        border-radius: 0 40% 0 40%;
+      }
+    }
+    & .technology {
+      &-title {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 50px;
+        & .technology-line {
+          width: 4px;
+          height: 35px;
+          margin-right: 12px;
+          background: #54b689;
+        }
+        & h3 {
+          font-size: 28px;
+          line-height: 38px;
+          font-weight: 700;
+        }
+      }
+      &-content {
+        margin-top: 30px;
+        &-icon {
+          margin: 0 8px;
+          width: 30px;
+          height: auto;
+          &:nth-child(7) {
+            width: 40px;
+          }
+          &:nth-child(9) {
+            width: 25px;
+          }
+          &:last-child {
+            width: 40px;
+          }
+        }
+      }
+    }
+  }
+  
+  //light theme
+  .light {
+    & .about {
+      background: rgba(238, 237, 237, 0.459);
+      &-content {
+        & h2,
+        h6,
+        p {
+          color: #000;
+        }
+      }
+    }
+    & .technology {
+      &-title {
+        & h3 {
+          color: #000;
+        }
+      }
+      &-content {
+        &-card {
+          & h5,
+          p {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+  
+  //dark theme
+  .dark {
+    & .about {
+      background: rgba(238, 237, 237, 0.11);
+      &-content {
+        & h2,
+        h6,
+        p {
+          color: #fff;
+        }
+      }
+    }
+    & .technology {
+      &-title h3 {
+        color: #fff;
+      }
+      &-content {
+        &-card {
+          & h5,
+          p {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  @media screen and(max-width:1500px) {
+    .about-page {
+      padding: 0;
+      margin-bottom: 250px;
+      & .about {
+        margin-top: 0;
+      }
+    }
+  }
+  
+  @media screen and(max-width:768px) {
+    .about-page {
+      & .about {
+        &-content {
+          margin-right: 10px;
+          & h2 {
+            font-size: 30px;
+          }
+          & h6 {
+            font-size: 15px;
+          }
+          & p {
+            font-size: 14px;
+          }
+        }
+        &-image {
+          width: 50%;
+          height: auto;
+          border-radius: 0 40% 0 40%;
+        }
+      }
+      & .technology {
+        &-title {
+          display: flex;
+          align-items: flex-start;
+          margin-top: 50px;
+          & .technology-line {
+            width: 4px;
+            height: 35px;
+            margin-right: 12px;
+            background: #54b689;
+          }
+          & h5 {
+            font-size: 28px;
+            font-weight: bold;
+          }
+        }
+        &-content {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+  
+  @media screen and(max-width:415px) {
+    .about-page {
+      & .about {
+        flex-direction: column;
+        &-content {
+          margin-top: 0;
+          & h2 {
+            font-size: 30px;
+          }
+          & h6 {
+            font-size: 16px;
+          }
+        }
+        &-image {
+          width: 100%;
+        }
+      }
+      & .technology {
+        &-content {
+          margin-top: 30px;
+          &-icon {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
