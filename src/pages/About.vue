@@ -59,18 +59,22 @@
 <script>
 export default {
   name: "About",
+  props: ["mode"],
 };
 </script>
 
 <style lang="scss" scoped>
 //general css
 .about-page {
+  padding: 0 20px;
+  height: 100vh;
   & .about {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
     padding: 15px;
+    background: rgba(202, 202, 202, 0.199);
     &-content {
       margin-top: 30px;
       & h2 {
@@ -192,15 +196,16 @@ export default {
 }
 @media screen and(max-width:1500px) {
   .about-page {
-    margin-left: 50px;
+    padding: 0;
+    & .about {
+      margin-top: 0;
+    }
   }
 }
 
 @media screen and(max-width:768px) {
   .about-page {
-    margin-left: 0;
     & .about {
-      margin-top: 0;
       &-content {
         margin-right: 10px;
         & h2 {

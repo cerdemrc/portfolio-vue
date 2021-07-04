@@ -1,15 +1,7 @@
 <template>
-  <div id="app">
-    <b-container fluid>
-      <b-row>
-        <b-col xs="12" lg="3" xl="3" class="p-0">
-          <Aside :mode="mode" @toggle="toggle" />
-        </b-col>
-        <b-col xs="12" lg="9" xl="9" class="app-page" :class="mode">
-          <router-view :mode="mode" />
-        </b-col>
-      </b-row>
-    </b-container>
+  <div class="app">
+    <div class="app-aside"><Aside :mode="mode" @toggle="toggle" /></div>
+    <div class="app-pages" :class="mode"><router-view :mode="mode" /></div>
   </div>
 </template>
 
@@ -39,24 +31,57 @@ export default {
 
 <style lang="scss">
 @import "@/assets/styles/_variables.scss";
-#app {
-  overflow-x: hidden;
-}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .dark {
   background: $subDark;
 }
-.app-page {
-  height: 100vh;
+
+.app {
+  display: flex;
+  & .app-aside {
+    width: 20%;
+    background: $primary;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  & .app-pages {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    overflow-y: scroll;
+  }
 }
 
-@media screen and(max-width:768px) {
-  .app-page {
-    height: auto;
+@media screen and(max-width:1200px) {
+  .app {
+    & .app-aside {
+      width: 30%;
+    }
+    & .app-pages {
+      width: 70%;
+    }
+  }
+}
+
+@media screen and(max-width:1020px) {
+  .app {
+    flex-direction: column;
+    & .app-aside {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    & .app-pages {
+      width: 100%;
+      position: relative;
+    }
   }
 }
 </style>

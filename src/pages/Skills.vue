@@ -111,6 +111,7 @@ export default {
 .skills {
   margin-top: 30px;
   padding: 0 50px;
+  height: 100vh;
   &-frontend {
     margin-top: 40px;
   }

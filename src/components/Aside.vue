@@ -32,11 +32,8 @@
             >
           </li>
           <li>
-            <img src="../assets/svg/portfolio.svg" /><router-link
-              to="/portfolio"
-              tag="a"
-              >Portfolio</router-link
-            >
+            <img src="../assets/svg/portfolio.svg" />
+            <router-link to="/portfolio" tag="a">Portfolio</router-link>
           </li>
           <li>
             <img src="../assets/svg/skills.svg" /><router-link
@@ -146,12 +143,8 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/styles/_variables.scss";
 .aside {
-  position: fixed;
-  left: 0;
-  top: 0;
   height: 100vh;
-  width: 385px;
-  overflow-y: auto;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -186,7 +179,7 @@ export default {
   }
   &-line {
     margin-top: 30px;
-    width: 320px;
+    width: 250px;
     height: 1px;
     background: rgba(0, 0, 0, 0.158);
   }
@@ -237,7 +230,7 @@ export default {
     }
   }
   &-mobile {
-    display: none;
+    //display: none;
   }
 }
 
@@ -249,7 +242,7 @@ export default {
 }
 @media screen and(max-width:1500px) {
   .aside {
-    width: 300px;
+    //width: 300px;
   }
 }
 @media screen and(max-width:991px) {

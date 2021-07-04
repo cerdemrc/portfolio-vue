@@ -12,10 +12,13 @@
             :key="project.name"
           >
             <div class="projects-card">
-              <img
+              <a
                 class="projects-card-image"
-                :src="require('../assets/projects/' + project.image)"
-              />
+                :href="project.project"
+                target="blank"
+              >
+                <img :src="require('../assets/projects/' + project.image)"
+              /></a>
               <h3 class="projects-card-title">{{ project.name }}</h3>
               <div class="projects-card-links">
                 <a :href="project.code" target="_blank" title="See Code"
@@ -49,6 +52,7 @@ export default {
 .portfolio {
   margin-top: 30px;
   margin-bottom: 30px;
+  height: auto;
   & .projects {
     margin-top: 30px;
     &-card {
@@ -72,9 +76,13 @@ export default {
         }
       }
       &-image {
-        width: 80%;
-        height: 180px;
-        border-radius: 0 20% 0 20%;
+        display: flex;
+        justify-content: center;
+        & img {
+          width: 80%;
+          height: 180px;
+          border-radius: 0 20% 0 20%;
+        }
       }
     }
   }
@@ -98,8 +106,10 @@ export default {
           font-size: 12px;
         }
         &-image {
-          width: 100%;
-          height: 200px;
+          & img {
+            width: 80%;
+            height: 180px;
+          }
         }
       }
     }
