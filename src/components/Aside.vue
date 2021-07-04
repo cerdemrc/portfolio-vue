@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div :class="theme" class="aside">
+    <div class="aside" :class="mode">
       <h5 class="aside-name">&lt; Ceren Demirci &#47;&gt;</h5>
       <img class="aside-image" src="../assets/picture.jpeg" />
       <p class="aside-bio">Jr. Frontend Developer</p>
@@ -51,15 +51,20 @@
         <img src="../assets/svg/darkmode.svg" />
         <h5>Dark Mode</h5>
       </div>
-      <b-form-checkbox v-model="darkMode" switch size="lg"></b-form-checkbox>
+      <b-form-checkbox
+        @change="$emit('toggle')"
+        switch
+        size="lg"
+      ></b-form-checkbox>
     </div>
-    <div class="aside-mobile">
-      <div class="aside-mobile-icon" :class="theme">
+    <div class="aside-mobile" :class="mode">
+      <div class="aside-mobile-icon">
         <img src="../assets/svg/hamburger-menu.svg" @click="showMenu" />
+        <h5 class="aside-mobile-icon-name">Elif Ceren Demirci</h5>
+        <div class="aside-mobile-icon-empty" />
       </div>
-      <div :class="theme" class="aside-mobile-hidden" v-if="isShowMenu">
+      <div class="aside-mobile-hidden" v-if="isShowMenu">
         <div class="aside-mobile-hidden-content">
-          <h5 class="aside-name">Elif Ceren Demirci</h5>
           <img class="aside-image" src="../assets/picture.jpeg" />
           <p class="aside-bio">Jr. Frontend Developer</p>
           <div class="aside-links">
@@ -111,7 +116,7 @@
           </div>
           <b-form-checkbox
             class="aside-dark-mode-checkbox"
-            v-model="darkMode"
+            @change="$emit('toggle')"
             switch
             size="lg"
           ></b-form-checkbox>
@@ -124,19 +129,11 @@
 <script>
 export default {
   name: "Aside",
+  props: ["mode"],
   data() {
     return {
-      darkMode: false,
       isShowMenu: false,
     };
-  },
-  computed: {
-    theme() {
-      if (this.darkMode == true) {
-        return "dark-theme";
-      }
-      return "light-theme";
-    },
   },
   methods: {
     showMenu() {
@@ -150,12 +147,15 @@ export default {
 @import "@/assets/styles/_variables.scss";
 .aside {
   position: fixed;
-  height: 100%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 385px;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 20px;
   &-name {
     color: #fff;
     font-size: 25px;
@@ -240,11 +240,12 @@ export default {
     display: none;
   }
 }
-.light-theme {
-  background: $primary;
-}
-.dark-theme {
+
+.dark {
   background: $secondary;
+}
+.light {
+  background: $primary;
 }
 
 @media screen and(max-width:768px) {
@@ -253,12 +254,28 @@ export default {
     &-mobile {
       display: block;
       &-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         & img {
           width: 25px;
           height: auto;
           border: 1px solid #fff;
           border-radius: 20%;
           padding: 5px;
+          margin: 10px;
+        }
+        &-name {
+          color: #fff;
+          margin: 5px;
+          font-size: 20px;
+          line-height: 47px;
+          letter-spacing: 1.5px;
+          font-weight: 700;
+          font-weight: bold;
+        }
+        &-empty {
+          width: 25px;
           margin: 10px;
         }
       }
@@ -284,8 +301,5 @@ export default {
       }
     }
   }
-}
-
-@media screen and(max-width:415px) {
 }
 </style>

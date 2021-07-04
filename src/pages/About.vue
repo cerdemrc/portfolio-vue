@@ -81,13 +81,11 @@
 <script>
 export default {
   name: "About",
-  data() {
-    return {};
-  },
 };
 </script>
 
 <style lang="scss" scoped>
+//general css
 .about-page {
   & .about {
     display: flex;
@@ -95,7 +93,6 @@ export default {
     align-items: center;
     margin-top: 50px;
     padding: 15px;
-    background: rgba(238, 237, 237, 0.459);
     &-content {
       margin-top: 30px;
       & h2 {
@@ -151,6 +148,62 @@ export default {
         }
         & p {
           font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+//light theme
+.light {
+  & .about {
+    background: rgba(238, 237, 237, 0.459);
+    &-content {
+      & h2,
+      h6,
+      p {
+        color: #000;
+      }
+    }
+  }
+  & .technology {
+    &-title {
+      & h3 {
+        color: #000;
+      }
+    }
+    &-content {
+      &-card {
+        & h5,
+        p {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+//dark theme
+.dark {
+  & .about {
+    background: rgba(238, 237, 237, 0.11);
+    &-content {
+      & h2,
+      h6,
+      p {
+        color: #fff;
+      }
+    }
+  }
+  & .technology {
+    &-title h3 {
+      color: #fff;
+    }
+    &-content {
+      &-card {
+        & h5,
+        p {
+          color: #fff;
         }
       }
     }
@@ -231,8 +284,6 @@ export default {
       }
     }
     & .technology {
-      &-title {
-      }
       &-content {
         margin-top: 30px;
         &-card {

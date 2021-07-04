@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <b-container fluid class="p-0">
+    <b-container fluid>
       <b-row>
-        <b-col xs="12" sm="12" lg="3">
-          <Aside />
+        <b-col xs="12" lg="3" class="p-0">
+          <Aside :mode="mode" @toggle="toggle" />
         </b-col>
-        <b-col xs="12" sm="12" lg="9">
-          <router-view />
+        <b-col xs="12" lg="9" class="app-page" :class="mode">
+          <router-view :mode="mode" />
         </b-col>
       </b-row>
     </b-container>
@@ -20,10 +20,25 @@ export default {
   components: {
     Aside,
   },
+  data() {
+    return {
+      mode: "light",
+    };
+  },
+  methods: {
+    toggle() {
+      if (this.mode === "dark") {
+        this.mode = "light";
+      } else {
+        this.mode = "dark";
+      }
+    },
+  },
 };
 </script>
 
 <style lang="scss">
+@import "@/assets/styles/_variables.scss";
 #app {
   overflow-x: hidden;
 }
@@ -31,5 +46,17 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.dark {
+  background: $subDark;
+}
+.app-page {
+  height: 100vh;
+}
+
+@media screen and(max-width:768px) {
+  .app-page {
+    height: auto;
+  }
 }
 </style>

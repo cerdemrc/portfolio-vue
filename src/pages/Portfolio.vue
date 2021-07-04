@@ -114,7 +114,6 @@
                 /></a>
               </div></div
           ></b-col>
-
           <b-col xs="12" sm="12" md="6" lg="4">
             <div class="projects-card">
               <img
@@ -246,17 +245,13 @@ export default {
         height: 180px;
         border-radius: 0 20% 0 20%;
       }
-      //  & a {
-      //    text-decoration: none;
-      //    color: #54b689;
-      //    font-weight: 400;
-      //    font-size: 15px;
-      //    line-height: 24px;
-      //    &:hover {
-      //      color: rgba(0, 0, 0, 0.5);
-      //    }
-      //  }
     }
+  }
+}
+
+.dark {
+  & h3 {
+    color: #fff;
   }
 }
 
@@ -271,7 +266,7 @@ export default {
         & a {
           font-size: 12px;
         }
-        & img {
+        &-image {
           width: 100%;
           height: 200px;
         }

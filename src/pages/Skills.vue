@@ -134,6 +134,41 @@ export default {
   }
 }
 
+//light theme
+.light {
+  .skills {
+    &-tools-content {
+      & h6 {
+        color: #212529;
+      }
+    }
+    & label {
+      color: #212529;
+    }
+    &-subtitle {
+      color: #212529;
+    }
+  }
+}
+
+//dark theme
+.dark {
+  .skills {
+    &-tools-content {
+      & h6 {
+        color: #fff;
+      }
+    }
+    & label,
+    h2 {
+      color: #fff;
+    }
+    &-subtitle {
+      color: #fff;
+    }
+  }
+}
+
 @media screen and(max-width:768px) {
   .skills {
     &-tools-content {
