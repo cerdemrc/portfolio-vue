@@ -24,53 +24,31 @@
       <div class="technology-content">
         <b-container>
           <b-row>
-            <b-col xs="12" sm="12" md="6" lg="3">
-              <div class="technology-content-card">
-                <img src="../assets/svg/html.svg" class="mr-2" />
-                <img src="../assets/svg/css.svg" class="mr-2" />
-                <img src="../assets/svg/sass.svg" />
-                <h5>HTML & CSS & SASS</h5>
-                <p>
-                  List skills/technologies here. You can change the icon above
-                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
-                  commodo ligula eget dolor.
-                </p>
-              </div>
-            </b-col>
-            <b-col xs="12" sm="12" md="6" lg="3">
-              <div class="technology-content-card">
-                <img src="../assets/svg/js.svg" />
-                <h5>JavaScript</h5>
-                <p>
-                  List skills/technologies here. You can change the icon above
-                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
-                  commodo ligula eget dolor.
-                </p>
-              </div>
-            </b-col>
-            <b-col xs="12" sm="12" md="6" lg="3">
-              <div class="technology-content-card">
-                <img src="../assets/svg/vue.svg" />
-                <h5>Vue JS</h5>
-                <p>
-                  List skills/technologies here. You can change the icon above
-                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
-                  commodo ligula eget dolor.
-                </p>
-              </div>
-            </b-col>
-            <b-col xs="12" sm="12" md="6" lg="3">
-              <div class="technology-content-card">
-                <img src="../assets/svg/npm.svg" class="mr-2 mt-2" />
-                <img src="../assets/svg/gulp.svg" />
-                <h5>npm, Gulp</h5>
-                <p>
-                  List skills/technologies here. You can change the icon above
-                  to any of the 1500+ FontAwesome 5 free icons available. Aenean
-                  commodo ligula eget dolor.
-                </p>
-              </div>
-            </b-col>
+            <img class="technology-content-icon" src="../assets/svg/html.svg" />
+            <img class="technology-content-icon" src="../assets/svg/css.svg" />
+            <img class="technology-content-icon" src="../assets/svg/sass.svg" />
+            <img class="technology-content-icon" src="../assets/svg/js.svg" />
+            <img class="technology-content-icon" src="../assets/svg/vue.svg" />
+            <img
+              class="technology-content-icon"
+              src="../assets/svg/vscode.svg"
+            />
+            <img
+              class="technology-content-icon"
+              src="../assets/svg/figma.svg"
+            />
+            <img
+              class="technology-content-icon"
+              src="../assets/svg/bootstrap.svg"
+            />
+            <img
+              class="technology-content-icon mb-2"
+              src="../assets/svg/gulp.svg"
+            />
+            <img
+              class="technology-content-icon mt-2"
+              src="../assets/svg/npm.svg"
+            />
           </b-row>
         </b-container>
       </div>
@@ -139,15 +117,18 @@ export default {
     }
     &-content {
       margin-top: 30px;
-      &-card {
-        width: 80%;
-        & h5 {
-          font-size: 15px;
-          font-weight: bold;
-          margin-top: 10px;
+      &-icon {
+        margin: 0 8px;
+        width: 30px;
+        height: auto;
+        &:nth-child(7) {
+          width: 40px;
         }
-        & p {
-          font-size: 13px;
+        &:nth-child(9) {
+          width: 25px;
+        }
+        &:last-child {
+          width: 40px;
         }
       }
     }
@@ -217,6 +198,7 @@ export default {
 
 @media screen and(max-width:768px) {
   .about-page {
+    margin-left: 0;
     & .about {
       margin-top: 0;
       &-content {
@@ -232,7 +214,7 @@ export default {
         }
       }
       &-image {
-        width: 320px;
+        width: 50%;
         height: auto;
         border-radius: 0 40% 0 40%;
       }
@@ -255,17 +237,6 @@ export default {
       }
       &-content {
         margin-top: 30px;
-        &-card {
-          width: 80%;
-          & h5 {
-            font-size: 15px;
-            font-weight: bold;
-            margin-top: 10px;
-          }
-          & p {
-            font-size: 13px;
-          }
-        }
       }
     }
   }
@@ -276,31 +247,23 @@ export default {
     & .about {
       flex-direction: column;
       &-content {
+        margin-top: 0;
         & h2 {
           font-size: 30px;
         }
         & h6 {
-          text-align: center;
           font-size: 16px;
         }
       }
       &-image {
-        width: 320px;
+        width: 100%;
       }
     }
     & .technology {
       &-content {
         margin-top: 30px;
-        &-card {
-          width: 80%;
-          & h5 {
-            font-size: 15px;
-            font-weight: bold;
-            margin-top: 10px;
-          }
-          & p {
-            font-size: 13px;
-          }
+        &-icon {
+          margin-top: 10px;
         }
       }
     }
