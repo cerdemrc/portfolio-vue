@@ -51,6 +51,24 @@
       <b-progress>
         <b-progress-bar
           :style="{ 'background-color': '#54b689' }"
+          :value="30"
+          show-progress
+          animated
+        ></b-progress-bar>
+      </b-progress>
+      <label>Node JS (Keep Learning)</label>
+      <b-progress>
+        <b-progress-bar
+          :style="{ 'background-color': '#54b689' }"
+          :value="20"
+          show-progress
+          animated
+        ></b-progress-bar>
+      </b-progress>
+      <label>Express JS (Keep Learning)</label>
+      <b-progress>
+        <b-progress-bar
+          :style="{ 'background-color': '#54b689' }"
           :value="20"
           show-progress
           animated

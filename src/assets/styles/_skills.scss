@@ -1,6 +1,6 @@
 .skills {
     margin-top: 30px;
-    padding: 0 50px;
+    padding: 0 100px;
     height: 100vh;
     &-frontend {
       margin-top: 40px;
@@ -22,6 +22,9 @@
       font-weight: 300;
       margin-top: 20px;
       margin-bottom: 10px;
+    }
+    & label{
+        margin: 10px 0;
     }
   }
   
@@ -63,6 +66,7 @@
   @media screen and(max-width:768px) {
     .skills {
       margin-bottom: 200px;
+      padding: 0 50px;
       &-tools-content {
         flex-direction: column;
         & h6 {
