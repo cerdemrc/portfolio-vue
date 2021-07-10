@@ -55,7 +55,7 @@ export default {
     width: 80%;
     position: absolute;
     right: 0;
-    overflow-y: scroll;
+    //overflow-y: scroll;
   }
 }
 
