@@ -1,7 +1,7 @@
 <template>
   <div class="skills">
     <div class="skills-frontend">
-      <h2 class="skills-subtitle">Frontend Development</h2>
+      <h2 class="skills-subtitle">Development</h2>
       <label>HTML</label>
       <b-progress>
         <b-progress-bar
@@ -66,6 +66,15 @@
         ></b-progress-bar>
       </b-progress>
       <label>Express JS (Keep Learning)</label>
+      <b-progress>
+        <b-progress-bar
+          :style="{ 'background-color': '#54b689' }"
+          :value="30"
+          show-progress
+          animated
+        ></b-progress-bar>
+      </b-progress>
+      <label>Mongo DB (Keep Learning)</label>
       <b-progress>
         <b-progress-bar
           :style="{ 'background-color': '#54b689' }"
