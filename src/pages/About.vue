@@ -27,8 +27,7 @@
         <img class="technology-content-icon" src="../assets/svg/sass.svg" />
         <img class="technology-content-icon" src="../assets/svg/js.svg" />
         <img class="technology-content-icon" src="../assets/svg/vue.svg" />
-        <img class="technology-content-icon" src="../assets/svg/vscode.svg" />
-        <img class="technology-content-icon" src="../assets/svg/figma.svg" />
+        <img class="technology-content-icon" src="../assets/node.png" />
         <img
           class="technology-content-icon"
           src="../assets/svg/bootstrap.svg"
