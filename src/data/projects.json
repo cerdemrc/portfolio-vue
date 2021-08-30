@@ -53,12 +53,6 @@
         "project" : "https://instagram-clone-git-master-cerdemrc.vercel.app/"
     },
     {
-        "name": "Open Library",
-        "image": "open-library.png",
-        "code": "https://github.com/cerdemrc/open-library",
-        "project" : "https://vuejs-open-library.netlify.app/"
-    },
-    {
         "name": "Taskello",
         "image": "taskello.png",
         "code": "https://github.com/cerdemrc/vue3-taskello",
