@@ -62,6 +62,6 @@
         "name": "Github Clone",
         "image": "github-clone.png",
         "code": "https://github.com/cerdemrc/nuxt-github-clone",
-        "project" : "https://nuxt-github-clone.vercel.app/"
+        "project" : "https://nuxt-github-clone.netlify.app/"
     }
 ]
