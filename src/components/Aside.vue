@@ -33,7 +33,7 @@
           </li>
           <li>
             <img src="../assets/svg/portfolio.svg" />
-            <router-link to="/portfolio" tag="a">Portfolio</router-link>
+            <router-link to="/portfolio" tag="a">Projects</router-link>
           </li>
           <li>
             <img src="../assets/svg/skills.svg" /><router-link

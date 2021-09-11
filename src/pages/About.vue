@@ -5,12 +5,12 @@
         <h2>Ceren Demirci</h2>
         <h6>Jr. Frontend Developer</h6>
         <p>
-          I graduated from computer engineering in June 2020. I'm on my way to
-          becoming a good Developer. But for now I am a jr front end developer
-          with a passion for lifelong learning. I'm currently learning Nuxt JS
-          and doing projects. When I’m not coding, I enjoy learning new
-          technologies, playing computer games and solving sudoku.
-          <br /><br />
+          I graduated from computer engineering in June 2020. I'm working with
+          Vue js and responsive web design, using Scss. I'm on my way to
+          becoming a good developer. But for now I am a front end developer with
+          a passion for lifelong learning. When I’m not coding, I enjoy learning
+          new technologies, playing computer games and solving sudoku. And I'm
+          currently working on Mevn Stack. <br /><br />
           If you can dream it, you can do it.
         </p>
       </div>
