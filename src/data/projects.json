@@ -63,5 +63,17 @@
         "image": "github-clone.png",
         "code": "https://github.com/cerdemrc/nuxt-github-clone",
         "project" : "https://nuxt-github-clone.netlify.app/"
+    },
+    {
+        "name": "Ip-Tracker",
+        "image": "ip-tracker.png",
+        "code": "https://github.com/cerdemrc/ip-address-tracker",
+        "project" : "https://ip-address-tracker-vue.vercel.app/"
+    },
+    {
+        "name": "Countries API",
+        "image": "countries.png",
+        "code": "https://github.com/cerdemrc/frontend-mentor-rest-countries-api",
+        "project" : "https://frontend-mentor-countries-api.vercel.app/"
     }
 ]
