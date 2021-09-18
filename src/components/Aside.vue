@@ -3,7 +3,7 @@
     <div class="aside" :class="mode">
       <h5 class="aside-name">&lt; Ceren Demirci &#47;&gt;</h5>
       <img class="aside-image" src="../assets/picture.jpeg" />
-      <p class="aside-bio">Jr. Frontend Developer</p>
+      <p class="aside-bio">Frontend Developer</p>
       <div class="aside-links">
         <a href="https://github.com/cerdemrc" target="blank"
           ><img src="../assets/svg/github.svg"

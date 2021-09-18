@@ -20,13 +20,12 @@
                 <img :src="require('../assets/projects/' + project.image)"
               /></a>
               <h3 class="projects-card-title">{{ project.name }}</h3>
+              <h4 class="projects-card-techs">
+                {{ project.techs }}
+              </h4>
               <div class="projects-card-links">
-                <a :href="project.code" target="_blank" title="See Code"
-                  ><img src="../assets/svg/see-code.svg"
-                /></a>
-                <a :href="project.project" target="_blank" title="See Project"
-                  ><img src="../assets/svg/go-project.svg"
-                /></a>
+                <a :href="project.project" target="_blank">LIVE PREVIEW</a>
+                <a :href="project.code" target="_blank">GITHUB</a>
               </div>
             </div>
           </b-col>

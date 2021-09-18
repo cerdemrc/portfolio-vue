@@ -1,79 +1,78 @@
 [
     {
-        "name": "Find Make-Up",
-        "image": "makeup.png",
-        "code": "https://github.com/cerdemrc/makeup",
-        "project": "https://cerdemrc.github.io/makeup/"
-    },
-    {
-        "name": "Random Things",
-        "image": "random-things.png",
-        "code": "https://github.com/cerdemrc/random-things-react",
-        "project" : "https://random-things-react.vercel.app/"
-    },
-    {
         "name": "Pixabay API",
         "image": "pixabay.png",
         "code": "https://github.com/cerdemrc/pixabay-api",
-        "project" : "https://cerdemrc.github.io/pixabay-api/"
+        "project" : "https://cerdemrc.github.io/pixabay-api/",
+        "techs": "Vue JS | SCSS | Axios"
     },
     {
         "name": "Ideal Weight Calculator",
         "image": "ideal-weight.png",
         "code": "https://github.com/cerdemrc/ideal-weight-calculator",
-        "project" : "https://cerdemrc.github.io/ideal-weight-calculator/"
+        "project" : "https://cerdemrc.github.io/ideal-weight-calculator/",
+        "techs": "Vue JS | Vuex | SCSS"
     },
     {
         "name": "Quiz App",
         "image": "quiz-app.png",
         "code": "https://github.com/cerdemrc/quiz-app",
-        "project" : "https://cerdemrc.github.io/quiz-app/"
+        "project" : "https://cerdemrc.github.io/quiz-app/",
+        "techs": "Vue JS | SCSS"
     },
     {
         "name": "Currency Converter",
         "image": "currency.png",
         "code": "https://github.com/cerdemrc/currency-converter",
-        "project" : "https://cerdemrc.github.io/currency-converter/"
+        "project" : "https://cerdemrc.github.io/currency-converter/",
+        "techs": "Vue JS | SCSS | Axios"
     },    {
         "name": "Rock Paper Scissors",
         "image": "rps.png",
         "code": "https://github.com/cerdemrc/vue-rock-paper-scissors",
-        "project" : "https://vuejs-rock-paper-scissors.netlify.app/"
+        "project" : "https://vuejs-rock-paper-scissors.netlify.app/",
+        "techs": "Vue JS | Vue-Router | SCSS"
     },
     {
         "name": "Movie App",
         "image": "movie.png",
         "code": "https://github.com/cerdemrc/movie-app",
-        "project" : "https://application-movie.netlify.app/"
+        "project" : "https://application-movie.netlify.app/",
+        "techs": "Vue JS | Vuex | Vue-Router | Bootstrap"
     },
     {
         "name": "Instagram Clone",
         "image": "instagram.png",
         "code": "https://github.com/cerdemrc/instagram-clone",
-        "project" : "https://instagram-clone-git-master-cerdemrc.vercel.app/"
+        "project" : "https://instagram-clone-git-master-cerdemrc.vercel.app/",
+        "techs": "Vue JS | Vue-Router | SCSS"
     },
     {
         "name": "Taskello",
         "image": "taskello.png",
         "code": "https://github.com/cerdemrc/vue3-taskello",
-        "project" : "https://taskello.vercel.app/"
+        "project" : "https://taskello.vercel.app/",
+        "techs": "Vue3-Composition Api | Vuex 4 | Vite"
     },
     {
         "name": "Github Clone",
         "image": "github-clone.png",
         "code": "https://github.com/cerdemrc/nuxt-github-clone",
-        "project" : "https://nuxt-github-clone.netlify.app/"
+        "project" : "https://nuxt-github-clone.netlify.app/",
+        "techs": "Nuxt JS | Nuxt-Router | SCSS"
     },
     {
         "name": "Ip-Tracker",
         "image": "ip-tracker.png",
         "code": "https://github.com/cerdemrc/ip-address-tracker",
-        "project" : "https://ip-address-tracker-vue.vercel.app/"
+        "project" : "https://ip-address-tracker-vue.vercel.app/",
+        "techs": "Vue JS | SCSS | Leaflet JS | Axios"
     },
     {
         "name": "Countries API",
         "image": "countries.png",
         "code": "https://github.com/cerdemrc/frontend-mentor-rest-countries-api",
-        "project" : "https://frontend-mentor-countries-api.vercel.app/"
+        "project" : "https://frontend-mentor-countries-api.vercel.app/",
+        "techs": "Vue3-Composition Api | Vuex 4| Vue-Router"
     }
 ]
