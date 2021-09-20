@@ -69,8 +69,11 @@
 }
   
 .dark {
-    & h3 {
+    & h3, h4 {
       color: #fff;
+    }
+    & .projects-card{
+        border:1px dotted rgba(255, 255, 255, 0.342);
     }
 }
   @media screen and(max-width:1201px) {
