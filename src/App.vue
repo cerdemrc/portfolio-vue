@@ -38,6 +38,24 @@ export default {
   box-sizing: border-box;
 }
 
+* {
+  scrollbar-width: auto;
+  scrollbar-color: $primary $subDark;
+}
+
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $primary;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $secondary;
+  border-radius: 10px;
+}
+
 .dark {
   background: $subDark;
 }
