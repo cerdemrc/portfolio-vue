@@ -1,7 +1,7 @@
 [
     {
         "title": "Why Composition API?",
-        "text": "There are non-reactive variables that we use in the template. For example, a title variable will never change. So it doesn’t need to be reactive. However order to use it in the template, we need to define it in data, methods or computed. ..",
+        "text": "There are non-reactive variables that we use in the template. For example, a title variable will never change. So it doesn’t need to be reactive. However order to use it in the template, we need to define it in data, methods or computed...",
         "readMore" : "https://cerdemrc.medium.com/why-composition-api-81a0e024c8f0",
         "readMin": "2",
         "date": "9.15.2021"

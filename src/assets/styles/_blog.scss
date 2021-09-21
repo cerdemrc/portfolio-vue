@@ -8,6 +8,12 @@
     &-card{
         border:1px dotted #000; 
         border-bottom: none;
+        transition: .2s;
+        transform: translate(-2px, 0);
+        &:hover{
+            transition: .2s;
+            transform: translate(2px, 0);
+        }
         &-content{
             padding: 20px 10px;
         }
