@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Why Composition API?",
+        "text": "There are non-reactive variables that we use in the template. For example, a title variable will never change. So it doesn’t need to be reactive. However order to use it in the template, we need to define it in data, methods or computed. ..",
+        "readMore" : "https://cerdemrc.medium.com/why-composition-api-81a0e024c8f0",
+        "readMin": "2",
+        "date": "9.15.2021"
+    },
+    {
+        "title": "How to deploy Vue JS Project to Github Pages?",
+        "text": "Github Pages is used to create a static website for projects or organizations hosted by Github. Let’s deploy the project in 4 steps...",
+        "readMore" : "https://cerdemrc.medium.com/how-to-deploy-vue-js-project-to-github-pages-8e180826b916",
+        "readMin": "2",
+        "date": "3.20.2021"
+    },
+    {
+        "title": "Gulp Nedir? 🚀",
+        "text": "Gulp.js açık kaynaklı bir JavaScript araç setidir. Tekrar eden işlemleri bizim yerimize yaparak zamandan tasarruf etmemizi sağlar. Örneğin; JS, CSS dosyalarını küçültmek ve paketlemek, TS, LESS, SCSS dosyalarını derlemek gibi birçok eylem için kullanabiliriz...",
+        "readMore" : "https://cerdemrc.medium.com/gulp-nedir-d579863887e9",
+        "readMin": "2",
+        "date": "1.31.2021"
+    },
+    {
+        "title": "Javascript ile Scroll Top",
+        "text": "Web sitenizdeki scroll-top düğmesi, sayfanın en üstüne giderek web sitenizde daha fazla gezinme kolaylığı sağlar. Bu işlevselliği web sitenize eklemek için gereken HTML, CSS ve JavaScript kodları aşağıdadır...",
+        "readMore" : "https://cerdemrc.medium.com/javascript-ile-scroll-top-983e491c79be",
+        "readMin": "1",
+        "date": "12.10.2020"
+    }
+]

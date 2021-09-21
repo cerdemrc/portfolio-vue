@@ -42,6 +42,13 @@
               >Skills</router-link
             >
           </li>
+          <li>
+            <img src="../assets/svg/skills.svg" /><router-link
+              to="/blog"
+              tag="a"
+              >Blog</router-link
+            >
+          </li>
         </ul>
       </div>
       <div class="aside-dark-mode">
