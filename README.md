@@ -1,10 +1,18 @@
-# portfolio
+<div align="center">
+  <img src="https://media.giphy.com/media/fwz0kqK73CSTZA3srV/giphy.gif?cid=ecf05e47ejkw4vt0jj7vaz6ddl2hqb7oqv24acq386skoagq&rid=giphy.gif&ct=s" width="25%">
+  <p>✨This repository contains the source code of my personal website.</p>
+  <p><strong>Used Techs:</strong> Vue Js, Vue-Router, SCSS, Bootstrap-Vue</p>
+  <a href="https://cerendemirci.netlify.app/"><strong>Live Demo</strong></a>
+</div>
 
-## Project setup
+<h2>🧐 Screenshots</h2>
+
+![Component 1](https://user-images.githubusercontent.com/40372039/134146067-19a85e54-7e0b-48c5-a5dd-8ce989397f68.png)
+## 🛠️ Project setup
+
 ```
 npm install
 ```
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -20,5 +28,7 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<hr/>
+<p align="center">
+Developed with ❤️
+</p>
