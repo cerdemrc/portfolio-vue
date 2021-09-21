@@ -57,7 +57,6 @@ export default {
         const oneDay = 1000 * 60 * 60 * 24;
         const diffInTime = date2.getTime() - date1.getTime();
         const diffInDays = Math.round(diffInTime / oneDay);
-        console.log(diffInDays);
 
         return diffInDays + " days";
       }
