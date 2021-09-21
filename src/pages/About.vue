@@ -3,7 +3,7 @@
     <div class="about">
       <div class="about-content">
         <h2>Ceren Demirci</h2>
-        <h6>Jr. Frontend Developer</h6>
+        <h6>Frontend Developer</h6>
         <p>
           I graduated from computer engineering in June 2020. I'm working with
           Vue js and responsive web design, using Scss. I'm on my way to
