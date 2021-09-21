@@ -7,7 +7,7 @@
 
 <h2>🧐 Screenshots</h2>
 
-![Component 1](https://user-images.githubusercontent.com/40372039/134023073-f3f05e1e-1d55-44d2-a70d-8e627cf2db5d.png)
+![Component 1](https://user-images.githubusercontent.com/40372039/134146067-19a85e54-7e0b-48c5-a5dd-8ce989397f68.png)
 ## 🛠️ Project setup
 
 ```
