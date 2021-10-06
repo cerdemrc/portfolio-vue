@@ -95,6 +95,12 @@
 
 .dark {
   background: $secondary;
+  .aside-links img{
+    background: rgba(202, 202, 202, 0.199);
+    &:hover{
+        background: $subDark;
+    }
+  }
 }
 .light {
   background: $primary;
