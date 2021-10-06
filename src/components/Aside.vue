@@ -5,20 +5,29 @@
       <img class="aside-image" src="../assets/picture.jpeg" />
       <p class="aside-bio">Frontend Developer</p>
       <div class="aside-links">
-        <a href="https://github.com/cerdemrc" target="blank"
+        <a href="https://github.com/cerdemrc" title="Github" target="blank"
           ><img src="../assets/svg/github.svg"
         /></a>
-        <a href="https://www.linkedin.com/in/cerendemirci/" target="blank"
+        <a
+          href="https://www.linkedin.com/in/cerendemirci/"
+          title="Linkedin"
+          target="blank"
           ><img src="../assets/svg/linkedin.svg"
         /></a>
-        <a href="https://cerdemrc.medium.com/" target="blank"
+        <a href="https://cerdemrc.medium.com/" title="Medium" target="blank"
           ><img src="../assets/svg/medium.svg"
         /></a>
-        <a href="https://www.behance.net/cerendemirci" target="blank"
-          ><img src="../assets/svg/behance.svg"
+        <a
+          href="https://www.instagram.com/cerdemrc/"
+          title="Instagram"
+          target="blank"
+          ><img
+            src="../assets/svg/instagram.svg"
+            style="width: 35px; height: 35px"
         /></a>
         <a
           href="https://stackoverflow.com/users/12705137/ceren?tab=profile"
+          title="Stack Overflow"
           target="blank"
           ><img src="../assets/svg/stackoverflow.svg"
         /></a>
@@ -110,8 +119,10 @@
             <a href="https://cerdemrc.medium.com/" target="blank"
               ><img src="../assets/svg/medium.svg"
             /></a>
-            <a href="https://www.behance.net/cerendemirci" target="blank"
-              ><img src="../assets/svg/behance.svg"
+            <a href="https://www.instagram.com/cerdemrc/" target="blank"
+              ><img
+                src="../assets/svg/instagram.svg"
+                style="width: 35px; height: 35px"
             /></a>
             <a
               href="https://stackoverflow.com/users/12705137/ceren?tab=profile"
