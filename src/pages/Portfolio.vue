@@ -24,7 +24,12 @@
                 {{ project.techs }}
               </h4>
               <div class="projects-card-links">
-                <a :href="project.project" target="_blank">LIVE PREVIEW</a>
+                <a
+                  v-if="project.project"
+                  :href="project.project"
+                  target="_blank"
+                  >LIVE PREVIEW</a
+                >
                 <a :href="project.code" target="_blank">GITHUB</a>
               </div>
             </div>
