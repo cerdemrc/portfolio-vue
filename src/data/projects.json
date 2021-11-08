@@ -1,6 +1,6 @@
 [
     {
-        "name": "Pixabay API",
+        "name": "Pixabay",
         "image": "pixabay.png",
         "code": "https://github.com/cerdemrc/pixabay-api",
         "project" : "https://cerdemrc.github.io/pixabay-api/",
