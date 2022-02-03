@@ -80,5 +80,19 @@
         "image": "book-directory.png",
         "code": "https://github.com/cerdemrc/mevn-book-directory",
         "techs": "Vue | Express | Node.js | MongoDb | Auth"
+    },
+    {
+        "name": "Coffee Types",
+        "image": "coffee-types.jpg",
+        "code": "https://github.com/cerdemrc/next-coffee-types",
+        "project" : "https://next-coffee-types.vercel.app/",
+        "techs": "Next JS | Chakra UI | SCSS"
+    },
+    {
+        "name": "News App",
+        "image": "news-app.jpg",
+        "code": "https://github.com/cerdemrc/next-news-app",
+        "project" : "https://next-news-app-five.vercel.app/",
+        "techs": "Next JS | Redux Toolkit | Tailwind"
     }
 ]
